@@ -1,6 +1,4 @@
 
-
-
 # def getsum(Sia):
 #     res=0
 #     for i in Sia:
