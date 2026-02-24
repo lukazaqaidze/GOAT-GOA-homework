@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>მოგზაურობა</title>
+    <style>
+        body {
+            background-color: #f0f8ff;
+            font-family: Arial;
+        }
+
+        h1 {
+            color: #2E8B57;
+            text-transform: uppercase;
+            font-size: 36px;
+        }
+
+        .section {
+            background-color: rgb(240, 240, 240);
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #333333;
+        }
+    </style>
+</head>
+<body>
+
+<h1>მოგზაურობა მსოფლიოში</h1>
+
+<div class="section">
+    <p>
+        მოგზაურობა გვაძლევს შესაძლებლობას ვნახოთ ახალი ადგილები,
+        გავიცნოთ სხვადასხვა კულტურა და შევიძინოთ ახალი გამოცდილება.
+    </p>
+</div>
+
+<div class="section">
+    <p>
+        სხვადასხვა ქვეყანა გამოირჩევა თავისი ბუნებით, ისტორიით და ტრადიციებით.
+    </p>
+</div>
+
+<div class="section">
+    <p>
+        მოგზაურობა ავითარებს ადამიანს და ხდის მას უფრო გამოცდილს.
+    </p>
+</div>
+
+</body>
+</html>
