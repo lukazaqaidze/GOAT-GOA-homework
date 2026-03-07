@@ -1,0 +1,15 @@
+
+#p1 {
+    text-decoration: underline;
+}
+#ph2 {
+    text-transform: uppercase;
+}
+#p3 {
+    text-shadow: 3px 3px 5px rgb(146, 92, 92); 
+}
+#h1 {
+    text-decoration: line-through;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 4px rgb(20, 20, 49);
+}
