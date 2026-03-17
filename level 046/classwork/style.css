@@ -1,0 +1,22 @@
+
+
+table{
+    border: 2px solid black; 
+    border-collapse: collapse;
+    text-align: center;
+    border-bottom: 1px;
+    border-bottom:color rgb(36, 223, 136)
+}
+thead {
+    color:rgb(36, 223, 136)
+}
+
+tbody :nth-child(2) {
+    color:rgb(36, 223, 136)
+}
+
+
+
+
+
+
