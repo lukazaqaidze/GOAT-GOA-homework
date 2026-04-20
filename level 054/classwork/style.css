@@ -1,0 +1,19 @@
+
+*{
+    background-color: black;
+    margin: 0;
+    padding: o;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background-color: aqua;
+}
+.div{
+    width: 150px;
+    height: 150px;
+    background-color: crimson;
+    border-radius: 50%;
+}

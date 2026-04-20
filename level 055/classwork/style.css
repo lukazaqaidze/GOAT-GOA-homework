@@ -1,0 +1,32 @@
+*{
+    margin: o;
+    padding: o;
+    box-sizing: border-box;
+}
+#parent {
+    display: flex;
+    width: 500px;
+    height: 300px;
+    border: 2px solid
+}
+.child{
+    border: 2px solid black;
+    width: 300px;
+    height: 200px;
+    
+}
+#spetial1{       /* pirveli gaizarda 1 it da meores daaklda 1 */
+    flex-shrink: 1;
+    background-color: blue;
+}
+#spetial2{         /* meore semcirda ertit da gaizarda samit anu pirveli semcirda 2 it */
+    background-color: blueviolet;
+    flex-shrink: 1;
+}
+#spetial3{
+    flex-shrink:0;
+    background-color: chartreuse;
+}
+/* <!-- 2) შექმენით div სამი შვილობილი ელემენტით. პირველ ორ შვილობილ ელემენტს გადაეცით flex-shrink: 1. მესამე შვილობილ ელემენტს გადაეცით
+  flex-shrink: 0 და ფიქსირებული სიგანე 300px. ახსენით რა შედეგი 
+გამოვიდა საიტზე როდესაც საიტი იქამდე დავაპატარევეთ რომ საიტს მშობელ div-ში ადგილი აღარ არ დარჩა --> */

@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+    height: 200vh;
+}
+#cont{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 2px solid black;
+    position: relative;
+    left: 200px;
+
+}
+.child{
+    width: 200px;
+    height: 200px;
+}
+#parent {
+    background-color: red;
+    display: flex;
+    width: 600px;
+    height: 600px;
+    border: 2px solid
+}
+
+#spetial1{
+    background-color: aqua;
+    top: 200px;
+    position: relative;
+    top: 200px;
+
+}
+#spetial2{
+    background-color:blueviolet;
+    top: 400px;
+    position: relative;
+}
+#spetial3{
+    background-color: yellow;
+    position: sticky;
+    top:0px;
+}
+
+  

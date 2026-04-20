@@ -1,0 +1,54 @@
+  body {
+    height: 200vh; 
+    margin: 0;
+  }
+
+
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  img {
+    display: block;
+    width: 300px;
+  }
+
+
+  .top,
+  .bottom,
+  .left,
+  .right {
+    position: absolute;
+    background: black;
+  }
+
+  .top {
+    height: 5px;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  .bottom {
+    height: 5px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+
+  .left {
+    width: 5px;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  .right {
+    width: 5px;
+    height: 100%;
+    top: 0;
+    right: 0;
+  }
