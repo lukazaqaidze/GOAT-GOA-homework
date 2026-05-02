@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#parent{
+    width: 100vw;
+    height: 100vh;
+    background-image:url("https://play-lh.googleusercontent.com/y1yV7oGqfPvaEiA2-wGxj54g6pznm_dkWOISrn_ZuamPO-EsSwJpePLX1eHkDpEyrhk") ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}

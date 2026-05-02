@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+.box{
+    border: 2px  solid black;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition:2px;
+}
+#box1:hover{
+    transform:translate(100px,200px);
+    background-color: blue;
+}
+#box2:hover{
+    transform:scale(10000,1000);
+    background-color: blue;
+}
+#box3:hover{
+    transform:rotate(30deg);
+    background-color: blue;
+}
+#box4:hover{
+    transform:skew(100deg);
+    background-color: blue;
+}

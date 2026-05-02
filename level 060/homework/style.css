@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+.box{
+    border: 2px  solid black;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition:2px;
+}
+#box1:hover{
+    transform:translate(200px,150px);
+    background-color: blue;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIuIM93Tva111CAWCQi2vWCQ3BmTEC57TxzQ&s");
+    background-size: contain;
+}
+#box2:hover{
+    transform:scale(2.5);
+    background-color: blue;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIuIM93Tva111CAWCQi2vWCQ3BmTEC57TxzQ&s");
+    background-size: contain;
+}
+#box3:hover{
+    transform:skew(30,45);
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy9OhtWtahSAR0weSG8EahddkUDRVp_N1S8KXFu3VTlg&s&ec=121643274");
+    background-size: cover;
+}
+#box4:hover{
+    transform:rotate(125deg);
+    background-color: blue;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy9OhtWtahSAR0weSG8EahddkUDRVp_N1S8KXFu3VTlg&s&ec=121643274");
+    background-size: cover;
+}
+/* transform-ეს არის თვისება რომლზეც არის დამოკიდებული div ის აღნაგობა და მასზეა დამოკიდებული თუ სად იქნება ნივთები განლაგებული როგორი იქნება მისი 
+დახრილობა და ა.ჭ.. .*/
