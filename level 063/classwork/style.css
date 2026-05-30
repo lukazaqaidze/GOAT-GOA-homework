@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.david{
+    height: 100px;
+    width: 100px;
+    background-color: #74C247;
+    gap: 2px;
+}
+.david:hover{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy9OhtWtahSAR0weSG8EahddkUDRVp_N1S8KXFu3VTlg&s&ec=121643274");
+    background-size:cover;
+}
+#parent{
+    display: grid;
+    grid-template-columns:  100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+    gap: 2px;
+}
