@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#cont{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+@media (max-width:650px) {
+    #box{
+        background-color: blueviolet;
+        height: 150px;
+        width: 150px;
+        flex-direction: column;
+    }
+}
